@@ -34,3 +34,11 @@ To run the project locally, follow these steps:
         npm start
 
 The project should now be running on http://localhost:3000. Open this URL in your web browser to view the application.
+
+# Time to perform the task:
+1h to learn the basics of typescript,
+2h to write the code,
+1h to style with css,
+45min to to make git repository and write Project Setup Guide.
+
+Overall: 4h and 45min to complete the task.
