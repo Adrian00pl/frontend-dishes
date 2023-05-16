@@ -1,0 +1,107 @@
+.App {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.form-container {
+  position: relative;
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 20%;
+  min-width: 250px;
+  height: 55%;
+  min-height: 700px;
+}
+
+.form-container div {
+  margin-bottom: 1rem;
+}
+
+.slide-out {
+  animation-name: slideOut;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes slideOut {
+  from {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    pacity: 1;
+  }
+}
+label {
+  display: block;
+  font-weight: 600;
+  color:white;
+  padding: 5px;
+}
+
+.subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+input[type="text"],input[type="number"],
+select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 40px;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+.error-message {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+.success-message {
+  color: green;
+  margin-top: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: red;
+  margin-bottom: 5px;
+}
