@@ -13,7 +13,7 @@ Before you begin, make sure you have the following installed on your machine:
 
 1. Clone the project repository to your local machine using the following command:
 
-        git clone https://github.com/your-username/project.git
+        git clone https://github.com/Adrian00pl/frontend-dishes.git
 
 2. Open the project in your preferred code editor or navigate to the project directory using this command:
 
